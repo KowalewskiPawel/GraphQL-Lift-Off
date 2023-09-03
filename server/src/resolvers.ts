@@ -1,6 +1,6 @@
 export const resolvers = {
   Query: {
-    trackForHome: (_parent, _args, { dataSources }) => {
+    tracksForHome: (_parent, _args, { dataSources }) => {
       return dataSources.trackAPI.getTracksForHome();
     },
   },
